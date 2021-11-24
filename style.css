@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Section Style Starts */
+.container{
+   position: relative;
+    width: 100%;
+    height: 700px;
+   background-image: url(./Assets/NetflixImage.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6)
+}
+/* Container Section Style Ends */
+
+/* Navbar Section Style starts */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.leftnav img{
+    margin: 5px 50px;
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    height: 100px;
+   
+}
+/* rightnav section style */
+.rightnav{
+    display: flex;
+}
+.rightnav p{
+    font-size: 16px;
+    z-index: 2;
+    margin: 30px 50px 0px 0px;
+    padding:10px 18px;
+    border: 1px solid transparent;
+    color: white;
+}
+/* .lang Style */
+.lang{
+    position: relative;
+}
+/* .down style */
+.down{
+    position: absolute;
+    top: 6px;
+}
+/* .fas style */
+ .fas{
+    
+    padding:0px 2px 0px 2px;
+    
+}
+
+/* lang Section Style */
+.lang{
+    outline: 1px solid white;
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+/* Signin Section Style */
+.signIn{
+    background: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contents Section Style Starts */
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+}
+
+/* Contents h1 Section Style */
+.contents h1{
+    position: absolute;
+    z-index: 2;
+    width: 570px;
+    margin-top: -100px;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/* SmalContentOne Section Style */
+.smallContentone{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-top: 80px;
+    margin-right: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SmallContenttwo Section Style */
+.smallContenttwo{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-top:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Get_Started Section Style */
+.get_started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Input Section Style */
+form input{
+    width: 450px;
+    padding: 18px;
+    margin-left:-328px ;
+    margin-top: -200px;
+    font-size: 17px;
+    z-index: 2;
+    position: absolute;
+    outline: none;
+}
+
+/* get_Startbtn Style Starts */
+.get_startbtn {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    margin-left: 437px;
+    border-left: 3px solid #333333;
+    font-size: 25px;
+    margin-top: -341px;
+   background: red;
+   color: #fff;
+   padding: 14px 22px;
+   border: 1px solid transparent;
+    cursor: pointer;
+}
+/* NavBAr Section Style Ends */
+hr{
+    height: 10px;
+    border: 1px solid transparent;
+    background: #222222;
+}
+
+
+/* EnjoyYourTv Section Style */
+.enjoyYourTv{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background: #000000;
+    
+}
+/* leftText Section Style */
+.leftText{
+    margin: 120px 90px;
+}
+.leftText h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.leftText p{
+    width: 550px;
+    color: #fff;
+    font-size: 28px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* RightTv Section Style */
+.rightTv{
+    position: relative;
+    padding-left: 10px;
+   
+}
+.rightTv img{
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    margin: 50px 90px;
+    z-index: 5;
+    
+    
+}
+.rightTv video{
+    width: 280px;
+    height: 180px;
+    position: absolute;
+    top: 103px;
+    left: 147px;
+}
+
+/* DownloadShow Section Style */
+.DownloadShow{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 450px;
+    background:#000000;
+}
+
+/* LeftImg Section style */
+.leftImg{
+    position: relative;
+}
+/* mobile-img Section Style */
+.mobile-img{
+    width: 480px;
+    height: 350px;
+    margin-left: 80px;
+}
+
+/* LeftBox Section Style */
+.leftBox{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 80px;
+    border: 2px solid #404040;
+    border-radius: 10px;
+    position: absolute;
+    left: 160px;
+    bottom: 120px;
+    background: #000;
+}
+/* Boxshot section style */
+.boxshot{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+/* icon_gif Section style */
+.icon_gif{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+/* innerpara Section Style */
+.innerpara{
+    margin-top: 20px;
+}
+/* leftbox p Section style */
+.leftBox p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.innerpara .download{
+    color: blue;
+    font-size: 15px;
+}
+
+/* RightText Section Style */
+.rightText{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 85px;
+}
+.rightText h1{
+    font-size: 50px;
+    width: 560px;
+}
+
+.rightText p{
+    font-size: 28px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+/* watchEverywhere Section Style */
+.watchEverywhere{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background: #000000;
+}
+
+/* leftSide Section style */
+.leftSide{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:150px 85px;
+}
+.leftSide h1{
+    font-size: 45px;
+}
+.leftSide p{
+    font-size: 22px;
+    margin-top: 20px;
+    width: 520px;
+}
+
+/* RightSide Section Style */
+.rightSide{
+    position: relative;
+}
+.rightSide img{
+    width: 550px;
+    height: 380px;
+    position: relative;
+    z-index: 5;
+}
+
+.rightSide video{
+    width: 330px;
+    height: 280px;
+    position: absolute;
+    right: 114px;
+    top: -13px;
+}
+
+/* childrenProfile Section style  */
+.childrenProfile{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background: #000000;
+}
+
+.leftimg img{
+    width: 450px;
+    height: 400px;
+    margin: 80px;
+}
+
+/* childrightSide Section style */
+.childrightSide{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 120px 80px;
+}
+.childrightSide h1{
+    font-size: 55px;
+}
+.childrightSide p{
+    font-size: 26px;
+    word-spacing: 5px;
+}
+
+/* FAQ Section Style */
+.faq{
+    width: 100%;
+    height: 900px;
+    background: #000000;
+}
+
+.faq h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 80px 0px 30px 0px;
+
+}
+
+/* Folder Section Style */
+.folder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.folder div{
+    width: 800px;
+    background: #303030;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 30px;
+    margin: 5px;
+}
+
+/* Inner Folder Section Style */
+.inner_folder{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* GetStart Section style */
+.getStart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getStart form input{
+    width: 450px;
+    padding: 17.5px;
+    margin-left:-40px ;
+    margin-top: -135px;
+    font-size: 17px;
+    outline: none;
+}
+
+.getStart .getStartbtn {
+    color: #fff;
+    border-left: 3px solid #333333;
+    font-size: 25px;
+    margin-left: 410px;
+    margin-top: -210px;
+   background: red;
+   color: #fff;
+   padding: 14px 22px;
+   border: 1px solid transparent;
+    cursor: pointer;
+}
+
+/* Footer Section style */
+.footer{
+    width: 100%;
+    height: 450px;
+    padding-top: 80px;
+    padding-left: 200px;
+    background: #000000;
+
+}
+
+.footer h3{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
+
+.call:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Footer Option Section Style */
+.footer_options{
+    display: flex;
+}
+.footer_options ul{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.footer_options li{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+    color: #757575;
+    cursor: pointer;
+}
+
+.footer_options li:hover{
+    text-decoration: underline;
+}
+
+/* Footer Btn Section Style */
+.footer_btn {
+    margin-top: 30px;
+    width: 150px;
+    padding: 20px 20px;
+    border: 1px solid #757575;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    color: #757575;
+    cursor: pointer;
+
+}
+.footer_btn p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NetFLixIndia Section Style */
+.netflixIndia{
+    margin-top: 25px;
+    color:#757575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
